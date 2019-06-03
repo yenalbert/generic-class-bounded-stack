@@ -5,9 +5,13 @@ A generic class called BoundedStack. When the capacity is exhausted, a call to p
 
 Generic BoundedStack class: 
 Must be a generic class.
+
 public void push(E item): This method adds the generic item to the top. If the stack is full, the overflow method is called.
-public E pop(): This public method removes the generic item from the top of the stack and returns it.  
+
+public E pop(): This public method removes the generic item from the top of the stack and returns it. 
+
 private void overflow(): This private method removes the oldest item in the stack.  
+
 public boolean isEmpty(): This public method will return true if the stack is empty
 
 Browser History:
