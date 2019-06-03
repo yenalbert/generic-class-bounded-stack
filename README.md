@@ -1,4 +1,4 @@
-# generic-class-bounded-stack-browser-history
+# generic-class-bounded-stack
 Browser History and Maji Game implementation with a, generic class, bounded stack (Last-in, First-out), without any use of the classes from the Java Collections Framework. An object of the BoundedStack class declared as a String BoundedStack will be used for a browser back button. Another object of the BoundedStack class, this one declared as a Double BoundedStack, will be used to get spell potency values for a maji game. 
 
 A generic class called BoundedStack. When the capacity is exhausted, a call to push will result in the placement of the new item, trading off with the least recently accessed item. This bounded stack can handle overflow of over 50 items.
