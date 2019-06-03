@@ -3,8 +3,7 @@ Browser History and Maji Game implementation with a, generic class, bounded stac
 
 A generic class called BoundedStack. When the capacity is exhausted, a call to push will result in the placement of the new item, trading off with the least recently accessed item. This bounded stack can handle overflow of over 50 items.
 
-Generic BoundedStack class: 
-Must be a generic class.
+Generic BoundedStack class methods:
 
 public void push(E item): This method adds the generic item to the top. If the stack is full, the overflow method is called.
 
