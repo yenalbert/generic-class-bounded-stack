@@ -3,7 +3,7 @@ import java.util.Random;
 /**
  * @author Albert Yen;
  */
-public class TesterProject2 
+public class TesterMajiGame 
 {
 	  public static void main(String[] args) 
     {
