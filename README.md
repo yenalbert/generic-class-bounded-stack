@@ -5,13 +5,13 @@ A generic class called BoundedStack. When the capacity is exhausted, a call to p
 
 Generic BoundedStack class methods:
 
-public void push(E item): This method adds the generic item to the top. If the stack is full, the overflow method is called.
+ - public void push(E item): This method adds the generic item to the top. If the stack is full, the overflow method is called.
 
-public E pop(): This public method removes the generic item from the top of the stack and returns it. 
+ - public E pop(): This public method removes the generic item from the top of the stack and returns it. 
 
-private void overflow(): This private method removes the oldest item in the stack.  
+ - private void overflow(): This private method removes the oldest item in the stack.  
 
-public boolean isEmpty(): This public method will return true if the stack is empty
+ - public boolean isEmpty(): This public method will return true if the stack is empty
 
 Browser History:
 When the client visits more pages, it will make room in the history for a new page by throwing away the page which is on the very bottom of the history (i.e., the least recently visited page). When the client wishes to go back to the last visited page, that page will be popped from the top of the history.
