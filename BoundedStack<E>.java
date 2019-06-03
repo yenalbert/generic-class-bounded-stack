@@ -1,7 +1,7 @@
 
 /**
  * @author Albert Yen
- * Project 2 - CS 111C
+ * Bounded Stack implemented with a linked list, and a nested node class, with a pointed called: next;
  */
  
 public class BoundedStack<E> {
@@ -26,7 +26,7 @@ public class BoundedStack<E> {
 	        size = 1;
 	}
 	   
-	    //This will be the push method, overflow method called if the size limit is reached.
+	//This will be the push method, overflow method called if the size limit is reached;
 	public void push (E x)
 	{ 
 		if (size==50) 
@@ -37,7 +37,8 @@ public class BoundedStack<E> {
 		first = new Node (x, first);
 	    	size++;
 	}
-	    
+	
+	//This method removes the oldest item in the stack;
 	private void overflow()
 	{
 	    	Node f = first;
@@ -49,7 +50,8 @@ public class BoundedStack<E> {
 		f.next = null;
 		size--;
 	}
-	  
+	 
+	//This method removes the generic item from the top of the stack and returns it;  
 	public E pop ()
 	{
 		E tempValue = null;
@@ -61,7 +63,7 @@ public class BoundedStack<E> {
 		return tempValue;
 	}
 
-	    	
+	//This public method will return true if the stack is empty;
 	public boolean isEmpty() 
 	{
 		if (first == null) 
