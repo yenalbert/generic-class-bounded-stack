@@ -13,7 +13,7 @@ public class TesterMajiGame
 		//Creation of a new BoundedStack, type: Double, for the Maji Game;
         	BoundedStack<Double> majiGame = new BoundedStack<Double>(randomMajiSpells.nextDouble());
         
-       		//This will push 51 spells, with randomly varying Double-values;
+       		//This will push 51 spells, with randomly varying double values;
         	for (int i=1; i != 53; i++) 
 		{
 			majiGame.push(randomMajiSpells.nextDouble());
