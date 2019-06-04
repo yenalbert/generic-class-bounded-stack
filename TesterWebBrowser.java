@@ -11,6 +11,7 @@ public class TesterWebBrowser
 		Random randomBrowserHistory = new Random();
 		
 		//Creation of a new BoundedStack, type: String, for the Browser History;
+                //For demonstration purposes, the browserHistory will be represented by an instance of the Random class;
 		BoundedStack<String> browserHistory = new BoundedStack<String>(Long.toString(randomBrowserHistory.nextLong()));
         
 		//This will push 51 IP addresses, randomly generated Long-values;
